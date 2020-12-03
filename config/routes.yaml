@@ -1,3 +1,11 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\Converter::index
+
+cartesian_to_polar:
+    path: /cartesian-to-polar
+    controller: App\Controller\Converter::cartesianToPolar
+
+polar_to_cartesian:
+    path: /polar-to-cartesian
+    controller: App\Controller\Converter::polarToCartesian
